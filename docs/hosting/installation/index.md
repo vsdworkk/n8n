@@ -27,6 +27,7 @@ Starting points for a Kubernetes setup:
 * [AWS](/hosting/installation/server-setups/aws/)
 * [Azure](/hosting/installation/server-setups/azure/)
 * [Google Cloud Platform](/hosting/installation/server-setups/google-cloud/)
+* [Scaleway](/hosting/installation/server-setups/scaleway/)
 
 Configuration guides to help you get started on other platforms:
 
