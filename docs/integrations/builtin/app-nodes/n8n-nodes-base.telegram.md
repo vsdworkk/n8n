@@ -33,6 +33,7 @@ Refer to [Telegram credentials](/integrations/builtin/credentials/telegram/) for
 * Message
     * Delete Chat Message
     * Edit Chat Message
+    * Edit Message Caption
     * Pin Chat Message
     * Send Animation
     * Send Audio
