@@ -7,7 +7,7 @@ priority: medium
 
 # Supabase Vector Store
 
-Use the Supabase Vector Store to interact with your Supabase database as vector store. You can insert documents into a vector database, get many documents from a vector database, and retrieve documents to provide them to a retriever connected to a chain.
+Use the Supabase Vector Store to interact with your Supabase database as vector store. You can insert documents into a vector database, get many documents from a vector database, and retrieve documents to provide them to a retriever connected to a chain. You can also update an item in a vector store by its ID.
 
 On this page, you'll find the node parameters for the Supabase node, and links to more resources.
 
@@ -21,7 +21,15 @@ Supabase provides a [quickstart for setting up your vector store](https://supaba
 
 ## Node parameters
 
---8<-- "_snippets/integrations/builtin/cluster-nodes/vector-store-mode.md"
+### Operation Mode
+
+Supabase Vector Store node in n8n have four modes: **Get Many**, **Insert Documents**, **Retrieve Documents** and **Update Documents**. The mode you select determines the operations you can perform with the node and what inputs and outputs are available.
+
+--8<-- "_snippets/integrations/builtin/cluster-nodes/common-vector-store-modes.md"
+
+#### Update Documents
+
+Use Update Documents mode to update existing items in vector database by ID.
 
 Parameters for **Get Many**:
 
@@ -36,6 +44,10 @@ Parameters for **Insert Documents**:
 Parameters for **Retrieve Documents (For Agent/Chain)**:
 
 * Table Name
+
+Parameters for **Update Documents**
+
+* ID
 
 ## Node options
 
