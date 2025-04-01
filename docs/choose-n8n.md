@@ -27,47 +27,47 @@ The entry-level hosted version of n8n makes it easier to use and maintain - n8n 
 
 ## n8n Cloud Pro
 
-The Pro version of n8n Cloud adds extra capacity and features for people making more use of workflows and collaborating with others, as well as features to deal with running many workflows at scale. 
+The Pro version of n8n Cloud adds extra capacity and features for people making more use of workflows and collaborating with others, as well as features to deal with running many workflows at scale.
 
-**Great for:** collaborating in teams, larger volumes of workflows, all the other benefits of the Cloud Starter level.
+**Great for:** collaborating in a team, larger volumes of workflows, all the other benefits of the Cloud Starter level.
 
 [Sign up for n8n Cloud here »](https://www.n8n.io/)
 
 ## Enterprise
 
-The Enterprise version of n8n is for people who rely on automation at scale, need enhanced support, have larger teams and more requirements for control and observability. Can be self-hosted or hosted by n8n.
+The Enterprise version of n8n is for people who rely on automation at scale, need enhanced support, have larger teams and more requirements for security (for example, [external secrets](/external-secrets.md)), performance,control and observability. Can be self-hosted or hosted by n8n.
 
-**Great for:** mission critical workflows, larger teams, ultimate control and observability.
+**Great for:** mission critical workflows, larger teams, superior security, performance, control and observability.
 
 [Find out more about enterprise features »][enterprise]
 
 ## Embed
 
-n8n Embed enables you to white label n8n and build it into your own product. Contact n8n on the [Embed website](https://n8n.io/embed/) for pricing and support.
+n8n Embed enables you to build n8n into your own product and offer it to customers. Contact n8n on the [Embed website](https://n8n.io/embed/) for pricing and support.
 
 ## Feature comparison
 
 This isn't an exhaustive comparison - for more details on the features available and current pricing, please see the main [n8n website][see website].
 
-| Feature                     | Community Edition                                    | Cloud Starter                                            | Cloud Pro                                                | Enterprise                                               |
-|-----------------------------|------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
-| **Workflow Executions**     | Unlimited                                            | 2.5k/month                                               | 10k–50k+/month                                           | Unlimited                                                |
-| **Active Workflows**        | Unlimited                                            | 5                                                        | 15–50                                                    | Unlimited                                                |
-| **Shared Projects**         | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | 1                                                        | 3                                                        | Unlimited                                                |
-| **Max Execution Time**      | Unlimited                                            | 5 mins                                                   | 40 mins                                                  | Unlimited                                                |
-| **AI assistant**            | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | :octicons-check-circle-fill-24:{ style="color:#289b63" } | :octicons-check-circle-fill-24:{ style="color:#289b63" } | :octicons-check-circle-fill-24:{ style="color:#289b63" } |
-| **Execution Log Retention** | 7 days                                               | 7 days                                                   | 30 days                                                  | Unlimited                                                |
-| **Workflow History**        | 1 day (with registration)                            | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | Up to 5 days                                             | Up to 365 days                                           |
-| **Global Variables**        | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-check-circle-fill-24:{ style="color:#289b63" } | :octicons-check-circle-fill-24:{ style="color:#289b63" } |
-| **Multiple Environments**   | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-check-circle-fill-24:{ style="color:#289b63" } |
-| **Version Control**         | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-check-circle-fill-24:{ style="color:#289b63" } |
-| **SSO (SAML, LDAP)**        | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-check-circle-fill-24:{ style="color:#289b63" } |
-| **External Secret Store**   | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-check-circle-fill-24:{ style="color:#289b63" } |
-| **Log Streaming**           | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-check-circle-fill-24:{ style="color:#289b63" } |
-| **Scaling Options**         | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-check-circle-fill-24:{ style="color:#289b63" } |
-| **Support**                 | Community forum                                      | Community forum                                          | Community forum                                          | Dedicated support with SLA                               |
-| **Hosting**                 | Self-hosted                                          | Hosted by n8n                                            | Hosted by n8n                                            | Self-hosted or hosted by n8n                             |
-| **Pricing**                 | Free                                                 | [see website][]                                          | [see website][]                                          | [see website][]                                          |
+| Feature                     | Community Edition                                    | Cloud Starter                                            | Cloud Pro                                                | Enterprise                                                             |
+|-----------------------------|------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|------------------------------------------------------------------------|
+| **Workflow Executions**     | Unlimited                                            | 2.5k/month                                               | 10k–50k+/month                                           | Up to unlimited ([more..](/hosting/scaling/performance-benchmarking/)) |
+| **Active Workflows**        | Unlimited                                            | 5                                                        | 15–50                                                    | Unlimited                                                              |
+| **Shared Projects**         | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | 1                                                        | 3                                                        | Unlimited                                                              |
+| **Max Execution Time**      | Unlimited                                            | 5 mins                                                   | 40 mins                                                  | Unlimited                                                              |
+| **AI assistant**            | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | :octicons-check-circle-fill-24:{ style="color:#289b63" } | :octicons-check-circle-fill-24:{ style="color:#289b63" } | :octicons-check-circle-fill-24:{ style="color:#289b63" } (on cloud)              |
+| **Execution Log Retention** | 7 days                                               | 7 days                                                   | 30 days                                                  | Unlimited                                                              |
+| **Workflow History**        | 1 day ([with registration][register])                            | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | Up to 5 days                                             | Up to 365 days                                                         |
+| **Global Variables**        | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-check-circle-fill-24:{ style="color:#289b63" } | :octicons-check-circle-fill-24:{ style="color:#289b63" }               |
+| **Multiple Environments**   | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-check-circle-fill-24:{ style="color:#289b63" }               |
+| **Version Control**         | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-check-circle-fill-24:{ style="color:#289b63" }               |
+| **SSO (SAML, LDAP)**        | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-check-circle-fill-24:{ style="color:#289b63" }               |
+| **External Secret Store**   | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-check-circle-fill-24:{ style="color:#289b63" }               |
+| **Log Streaming**           | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-check-circle-fill-24:{ style="color:#289b63" }               |
+| **Scaling Options**         | :octicons-x-circle-fill-24:{ style="color:#2b0fof" } | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-x-circle-fill-24:{ style="color:#2b0fof" }     | :octicons-check-circle-fill-24:{ style="color:#289b63" }               |
+| **Support**                 | Community forum                                      | Community forum                                          | Community forum                                          | Dedicated support with SLA                                             |
+| **Hosting**                 | Self-hosted                                          | Hosted by n8n                                            | Hosted by n8n                                            | Self-hosted or hosted by n8n                                           |
+| **Pricing**                 | Free                                                 | [see website][]                                          | [see website][]                                          | [see website][]                                                        |
 
 ## Licenses
 
@@ -78,3 +78,4 @@ For a detailed explanation of the license, refer to [Sustainable Use License](/s
 [see website]: https://n8n.io/pricing/
 [hosting]: /hosting/index.md
 [enterprise]: https://n8n.io/enterprise/
+[register]: /hosting/community-edition-features/#registered-community-edition
